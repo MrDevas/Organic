@@ -1,0 +1,1254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+  <link rel="stylesheet" href="./css/organic.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light navbar-expand-lg nav_bar sticky-top">
+    <a href="#" class="navbar-brand mx-5">
+      <img src="./assests/image/organic.png" height="50px" class="mx-4" /><span class="logo_head">ORGANIC
+        Product</span>
+    </a>
+
+    <button class="navbar-toggler nav_btn" type="button" data-bs-toggle="collapse"
+      data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
+      <ul class="navbar-nav">
+        <li class="nav-item active mx-5"><a href="#home" class="nav-link">Home</a></li>
+        <li class="nav-item mx-5"><a href="#about" class="nav-link">About</a></li>
+
+        <li class="nav-item dropdown mx-5">
+          <a href="#organic" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Organic</a>
+          <ul class="dropdown-menu">
+            <li><a href="#vegetable" class="dropdown-item">Vegetable</a></li>
+            <li><a href="#fruit" class="dropdown-item">Fruits</a></li>
+          </ul>
+        </li>
+
+        <li class="nav-item mx-5"><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <form class="d-flex mx-5">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </nav>
+
+  <section id="home" class="home_sec">
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assests/image/home_1.jpg" class="d-block w-100">
+        </div>
+
+        <div class="carousel-item">
+          <img src="./assests/image/home_2.jpg" class="d-block w-100">
+        </div>
+        <div class="carousel-item">
+          <img src="./assests/image/home_3.jpg" class="d-block w-100">
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h1 class="text-center pt-4">Welcome To Our Website</h1>
+    <div class="container">
+      <div class="row abut_img">
+        <div class="col-md-6 pt-5 d-flex justify-content-center">
+          <img src="./assests/image/abou_img1.jpg" class="img-fluid rounded-start" alt="...">
+        </div>
+        <div class="col-md-6 ps-4 pt-2">
+          <div class="card-body abut_body">
+            <p class="card-text abut_text">About Us</p>
+            <h5 class="card-title abut_h5">Purely Organic: Our Commitment to Healthy Living!!</h5>
+            <p class="card-text abut_p pt-2">Fruits and vegetables are a good source of vitamins, minerals, and fiber,
+              and they contain antioxidants and plant chemicals that can help protect against disease. Eating a variety
+              of fruits and vegetables can help reduce the risk of type 2 diabetes, stroke, heart disease, and some
+              cancers.
+            </p>
+            <div class="d-flex justify-content-center ">
+
+              <button class="btn btn-dark">Read More..</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="organic_sec" id="vegetable">
+    <h1 class="organic_sec_h1 text-center my-4"> Organic Product</h1>
+    <div class="container">
+      <div class="row mt-5 organic_cont">
+        <div class="col-md-3 col-sm-12">
+          <div class="card card_bg1" style="width:270px;">
+            <img src="./assests/image/kohlrabi.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Kohlrabi</h5>
+              <p class="card-text text-center">Kohlrabi also called German turnip or turnip cabbage, is a biennial
+                vegetable, a low, stout cultivar of wild cabbage</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Kohlrabi-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Kohlrabi-add" tabindex="-1" aria-labelledby="Kohlrabi-add1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Kohlrabi-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Kohlrabi(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-success position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Kohlrabi-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Kohlrabi-buy" tabindex="-1" aria-labelledby="Kohlrabi-buy1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Kohlrabi-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Kohlrabi(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$0.50</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$4.50</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+          <div class="card card_bg2" style="width:270px;">
+            <img src="./assests/image/broccoli.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Broccoli</h5>
+              <p class="card-text text-center">Broccoli (Brassica oleracea var. italica) is an edible green plant in the
+                cabbage family (family Brassicaceae, genus Brassica).</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Broccoli-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Broccoli-add" tabindex="-1" aria-labelledby="Broccoli-add1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Broccoli-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Broccoli(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-success position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Broccoli-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Broccoli-buy" tabindex="-1" aria-labelledby="Broccoli-buy1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Broccoli-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Broccoli(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$0.50</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$3.50</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+          <div class="card card_bg3" style="width:270px;">
+            <img src="./assests/image/cauliflower.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Cauliflower</h5>
+              <p class="card-text text-center">Cauliflower is one of several vegetables cultivated from the species
+                Brassica oleracea in the genus Brassica.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Cauliflower-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Cauliflower-add" tabindex="-1" aria-labelledby="Cauliflower-add1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Cauliflower-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Cauliflower(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-success position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Cauliflower-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Cauliflower-buy" tabindex="-1" aria-labelledby="Cauliflower-buy1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Cauliflower-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Cauliflower(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$1.00</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$5.50</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 col-sm-12">
+          <div class="card card_bg4" style="width:270px;">
+            <img src="./assests/image/turnips.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Turnips</h5>
+              <p class="card-text text-center"> Turnip is a root vegetable commonly grown in temperate climates
+                worldwide for its white, fleshy taproot.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Turnips-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Turnips-add" tabindex="-1" aria-labelledby="Turnips-add1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Turnips-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Turnips(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-success position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Turnips-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Turnips-buy" tabindex="-1" aria-labelledby="Turnips-buy1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Turnips-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Turnips(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$0.50</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$5.00</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="fruit">
+    <div class="container my-5 pt-5">
+      <div class="row organic_cont1">
+        <div class="col-md-3 col-sm-12">
+          <div class="card card_bg5" style="width:270px;">
+            <img src="./assests/image/vietnamese.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Vietnamese</h5>
+              <p class="card-text text-center">Vietnamese grapefruit, also known as pomelo, is a large citrus fruit
+                that's similar to a grapefruit but milder in taste.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Vietnamese-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Vietnamese-add" tabindex="-1" aria-labelledby="Vietnamese-add1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Vietnamese-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Vietnamese-add1(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$4.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-warning position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Vietnamese-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Vietnamese-buy" tabindex="-1" aria-labelledby="Vietnamese-buy1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Vietnamese-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Vietnamese(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$4.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$1.00</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$6.00</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card_bg6" style="width:270px;">
+            <img src="./assests/image/strawberry.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Strawberry</h5>
+              <p class="card-text text-center">Strawberry The fruit is widely appreciated for its characteristic aroma,
+                bright red color, juicy texture, and sweetness.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Strawberry-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Strawberry-add" tabindex="-1" aria-labelledby="Strawberry-add1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Strawberry-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Strawberry(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-warning position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Strawberry-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Strawberry-buy" tabindex="-1" aria-labelledby="Strawberry-buy1"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Strawberry-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Strawberry(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$3.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$0.50</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$5.00</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="card card_bg7" style="width:270px;">
+            <img src="./assests/image/orange.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Orange</h5>
+              <p class="card-text text-center">Orange The sweet orange to distinguish it from the bitter orange, is the
+                fruit of a tree in the family Rutaceae.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Orange-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Orange-add" tabindex="-1" aria-labelledby="Orange-add1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Orange-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Orange(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$2.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-warning  position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Orange-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Orange-buy" tabindex="-1" aria-labelledby="Orange-buy1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Orange-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Orange(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$2.50</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$0.50</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$4.00</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-3">
+          <div class="card card_bg8" style="width:270px;">
+            <img src="./assests/image/apple.png" class="card-img-top veg_img">
+            <div class="card-body">
+              <h5 class="card-title text-center">Apple</h5>
+              <p class="card-text text-center">Apple The apples can help improve your memory, mental alertness, and
+                electrical activity of the brain.</p>
+
+              <button type="button" style="width:90px;" class="btn btn-dark position-relative pe-4"
+                data-bs-toggle="modal" data-bs-target="#Apple-add">
+                Add
+                <span class="position-absolute top-50 start-100 translate-middle badge pe-5">
+                  <img src="./assests/image/add.png">
+                </span>
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Apple-add" tabindex="-1" aria-labelledby="Apple-add1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h4 class="modal-title" id="Apple-add1">Cart</h4>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-success" style="font-family:Georgia, 'Times New Roman', Times, serif;">Add Item
+                        Info:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Apple(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$4.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mt-1">Qty(2kg)</p>
+                        <p class="text-muted mb-0">1</p>
+                      </div>
+                      <span>Touch "Order" if you like:)</span>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Remove</button>
+                      <button type="button" class="btn btn-success">Order</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="button" style="width:90px;" class="btn btn-warning position-relative pe-4 ms-5"
+                data-bs-toggle="modal" data-bs-target="#Apple-buy">
+                Buy
+                <span class="position-absolute top-50 start-0 translate-middle badge ps-5 mx-5">
+                  <img src="./assests/image/shopping-cart.png">
+                </span>
+
+              </button>
+
+              <!-- Modal -->
+              <div class="modal fade" id="Apple-buy" tabindex="-1" aria-labelledby="Apple-buy1" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="Apple-buy1">Order</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <span class="text-danger" style="font-family:Georgia, 'Times New Roman', Times, serif;">Payment
+                        Summary:-</span>
+                      <hr style="border-top:2px dashed #7f8d89; background-color: transparent;opacity: 0.6;">
+                      </hr>
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold mb-0">Apple(Min-2Kg)</p>
+                        <p class="text-muted mb-0">$4.00</p>
+                      </div>
+                      <div class="d-flex justify-content-between">
+                        <p class="small mb-0">Shipping</p>
+                        <p class="small mb-0">$1.00</p>
+                      </div>
+
+                      <div class="d-flex justify-content-between pb-1">
+                        <p class="small">Tax</p>
+                        <p class="small">$1.00</p>
+                      </div>
+
+
+                      <div class="d-flex justify-content-between">
+                        <p class="fw-bold">Total</p>
+                        <p class="fw-bold">$6.00</p>
+                      </div>
+
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                      <button type="button" class="btn btn-primary">Confirm</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Page navigation example">
+      <ul class="pagination justify-content-center">
+        <li class="page-item">
+          <a class="page-link bg-dark text-light" style="border:none;" tabindex="" aria-disabled="false">Previous</a>
+        </li>
+        <li class="page-item active"><a class="page-link bg-success" style="border:none;">1</a></li>
+        <li class="page-item"><a class="page-link text-dark" style="border:none;">2</a></li>
+        <li class="page-item"><a class="page-link text-dark" style="border:none;">3</a></li>
+        <li class="page-item">
+          <a class="page-link bg-dark text-light" style="border:none;">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </section>
+
+
+
+  <section class="faq">
+    <div class="container my-5">
+      <div class="section-title text-center">
+        <h1>FAQ</h1>
+        <p>Some Frequently Asked Question?</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-sm-12  d-flex justify-content-center">
+          <img src="./assests/image/Questions.gif" class="img-fluid rounded-start ps-4 cont_img" alt="...">
+        </div>
+
+        <div class="col-md-6 col-sm-12 accordion my-5" id="accordionExample">
+          <div class="accordion-item ">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                1.Should I buy organic vegetables?
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="text-success">Answer: </strong>Organic foods are generally good for you and for the
+                environment. Even though organic fruits and vegetables are more expensive than conventional produce, the
+                true long term benefits to health and environment are suggested to be sizeable
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2.How do you identify organic vegetables?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="text-success">Answer: </strong>Organic vegetables look similar to conventional
+                vegetables. Since there is no use of chemical fertilizers and pesticides, they may often look natural,
+                smaller, irregular and less attractive. A dot, scar or hole is not uncommon. Identify by trusted source
+                and not the product.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3.Is organic food safer?
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="text-success">Answer: </strong>Organic farming does not employ chemical fertilizers &
+                pesticides, does not utilize sewage water and hence has lower pesticide residues and contamination in
+                food. This translates to safer food. Natural and biological control agents are considered to be less
+                toxic and to leave less or no residues, though this is to be proven conclusively.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button class="accordion-button collapsed btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                4.How do you know organic food is really organic?
+
+              </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="text-success">Answer: </strong>The number one way to tell organic food is by its source –
+                procure from a reliable professional farmer organization that is knowledgeable and trustworthy. Organic
+                food is likely to be less uniform in appearance and may have a scar or a dot. A few insects or worms at
+                times are to be expected. Organic food may not store well for long due to non use of storage chemicals,
+                wax & fungicide coatings.
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button class="accordion-button collapsed btn-outline-success" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                5.Which vegetables and fruits are better organic?
+
+              </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong class="text-success">Answer: </strong>Prioritize organic fruits and vegetables which typically
+                have a high use of fertilizers and pesticides or are grown using unhygienic inputs in farms.
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="features">
+    <div class="section-title text-center">
+      <h1>Our Features</h1>
+      <p> It strives to inform or entertain customers to create a positive experience for them.</p>
+    </div>
+    <div class="container mt-5">
+     
+      <div class="row m-5 fea_cont">
+        <div class="col-md-4 col-sm-12">
+          <div class="card fea_card1" style="width: 18rem;">
+            <img src="./assests/image/sprout.gif" height="250px"  class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Natural Process</h4>
+              <p class="card-text text-center">Natural processes are the endless interactions that shape our planet and support life.</p>
+              <a href="#" class="btn btn-dark fea_btn">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-sm-12">
+          <div class="card fea_card2" style="width: 18rem;">
+            <img src="./assests/image/save-nature.gif" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Organic Products</h4>
+              <p class="card-text text-center">Organic products are grown and processed using natural methods without synthetic chemicals.</p>
+              <a href="#" class="btn btn-dark fea_btn">Read More</a>
+            </div>
+          </div>
+        </div>
+  
+        <div class="col-md-4 col-sm-12">
+          <div class="card fea_card3" style="width: 18rem;">
+            <img src="./assests/image/organic.gif" height="250px" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h4 class="card-title text-center">Biologically Safe</h4>
+              <p class="card-text text-center">Biological crop protection products are not necessarily considered to be organic grown.</p>
+              <a href="#" class="btn btn-dark fea_btn">Read More</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section class="contact_sec" id="contact">
+    <div class="container">
+      <div class="section-title text-center">
+        <h1>Get in Touch</h1>
+        <p> Feel free to use our online form for inquiries</p>
+      </div>
+      <div class="row mt-5">
+        <div class="col-md-7 col-sm-12">
+          <div class="contact">
+            <form class="form">
+              <div class="row">
+                <div class="form-group col-md-6">
+                  <input type="text" name="name" class="form-control" placeholder="Name" required="required">
+                </div>
+                <div class="form-group col-md-6">
+                  <input type="email" name="email" class="form-control cont_mail" placeholder="Email"
+                    required="required">
+                </div>
+                <div class="form-group col-md-12 mt-5">
+                  <input type="text" name="subject" class="form-control" placeholder="Subject" required="required">
+                </div>
+                <div class="form-group col-md-12 mt-5">
+                  <textarea rows="6" name="message" class="form-control" placeholder="Your Message"
+                    required="required"></textarea>
+                </div>
+                <div class="col-md-12 text-center mt-5">
+                  <button type="button" value="Send message" name="submit" id="submitButton" class="btn btn-success"
+                    data-bs-toggle="modal" data-bs-target="#staticBackdrop" title="Submit Your Message!">Send
+                    Message</button>
+                  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false"
+                    tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5 class="modal-title" id="staticBackdropLabel">Send Message..</h5>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                          Be sure to send this message!!
+                        </div>
+                        <div class="modal-footer">
+                          <button type="button" class="btn btn-danger" data-bs-dismiss="modal">No</button>
+                          <button type="button" class="btn btn-success" data-bs-dismiss="modal">Yes!!</button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+
+        <div class="col-md-5 col-sm-12 d-flex justify-content-center">
+          <img src="./assests/image/contact.png" class="img-fluid rounded-start ps-5 cont_img" alt="...">
+        </div>
+      </div>
+
+  </section>
+
+
+  <footer style="background-color: #e9edc9;">
+    <div class="container p-4 my-5">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <h5 class="mb-3 text-dark" style="letter-spacing: 2px;">About Us</h5>
+          <p>
+            Fruits and vegetables are a good source of vitamins, minerals, and fiber, and they contain antioxidants and
+            plant chemicals that can help protect against disease.Eating a variety of fruits and vegetables can help
+            reduce the risk of type 2 diabetes, stroke, heart disease, and some cancers!!
+          </p>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5 class="mb-3 text-dark" style="letter-spacing: 2px; ">Links</h5>
+          <ul class="list-unstyled mb-0">
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Frequently Asked Questions</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Delivery</a>
+            </li>
+            <li class="mb-1">
+              <a href="#!" style="color: #4f4f4f;">Pricing</a>
+            </li>
+            <li>
+              <a href="#!" style="color: #4f4f4f;">Where we deliver?</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-md-3 mb-4">
+          <h5 class="mb-1 text-dark" style="letter-spacing: 2px;">Opening Hours</h5>
+          <table class="table" style="color: #4f4f4f;">
+            <tbody>
+              <tr>
+                <td>Mon - Fri:</td>
+                <td>8am - 8pm</td>
+              </tr>
+              <tr>
+                <td>Sat - Sun:</td>
+                <td>8am - 2am</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="text-center text-light bg-dark p-3">
+      © 2024 Copyright <img src="./assests/image/like.png" width="20px" alt="..."> MrDevawebsite
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
