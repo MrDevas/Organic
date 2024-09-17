@@ -200,6 +200,9 @@ html {
 }
 
 @media (min-width:350px) and (max-width:395px) {
+    .nav_btn {
+        margin-top: -60px;
+    }
 
     .abut_img {
         margin-top: -30px;
