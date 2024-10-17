@@ -199,7 +199,7 @@ html {
 
 }
 
-@media (min-width:350px) and (max-width:395px) {
+@media (min-width:350px) and (max-width:380px) {
     .nav_btn {
         margin-top: -60px;
     }
@@ -271,8 +271,17 @@ html {
         margin-left: -35px;
     }
 }
+@media all and (min-width:393px) {
+    .nav_btn {
+        margin-top: -20px;
+    }
+}
+
 
 @media (min-width:400px) and (max-width:430px) {
+    .nav_btn {
+        margin-top: 0px;
+    }
     .abut_img {
         margin-top: -30px;
     }
